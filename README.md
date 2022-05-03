@@ -14,7 +14,7 @@ export PYTHONPATH="/home/fran/mlops/test_repo"
 
 * criar arquivo anaconda.desktop com o conteudo:
 
-´´´[Desktop Entry]
+´´´ [Desktop Entry]
 Encoding=UTF-8
 Type=Application
 Name=Anaconda
@@ -22,6 +22,6 @@ Comment=anaconda navigator
 Exec=/home/fran/anaconda3/bin/./anaconda-navigator
 Icon=/home/fran/anaconda3/lib/python3.9/site-packages/anaconda_navigator/static/images/anaconda-icon-256x256.png
 StartupNotify=false
-Terminal=false´´´
+Terminal=false ´´´
 
 * sudo desktop-file-install anaconda.desktop
