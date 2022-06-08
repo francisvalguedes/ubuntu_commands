@@ -30,3 +30,19 @@ Terminal=false
 ~~~
 
 2. sudo desktop-file-install anaconda.desktop
+
+## Clonar disco com o DD
+1. Clonar disco:
+
+sudo dd if=/dev/sda of=/dev/sdb bs=32M status=progress
+
+2. Imagem:
+
+sudo dd if=/dev/sda of=/media/outro-disco/clone.dd bs=32M status=progress
+
+3. Restaurar imagem?
+
+sudo dd if=/media/outro-disco/clone.dd of=/dev/sda bs=32M status=progress
+
+
+
