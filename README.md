@@ -56,3 +56,12 @@ sudo sensors-detect
 Utilização
 
 sudo sensors
+
+## Drivers Placa de video Nvidia
+
+ubuntu-drivers devices
+
+sudo ubuntu-drivers autoinstall
+
+sudo ubuntu-drivers autoinstall
+
