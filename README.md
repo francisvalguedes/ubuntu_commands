@@ -45,4 +45,14 @@ sudo dd if=/dev/sda of=/media/outro-disco/clone.dd bs=32M status=progress
 sudo dd if=/media/outro-disco/clone.dd of=/dev/sda bs=32M status=progress
 
 
+## Monitor Hardware
 
+sudo apt-get install lm-sensors
+
+Instalado você pode configurá-lo executando o comando:
+
+sudo sensors-detect
+
+Utilização
+
+sudo sensors
